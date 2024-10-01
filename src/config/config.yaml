@@ -1,0 +1,31 @@
+langchain:
+  api_key: 
+  project: 
+
+chunking:
+  chunk_size:
+  overlap: 
+
+embeddings:
+  model_path: "sentence-transformers/all-MiniLM-l6-v2"
+  kwargs:
+    device: "cuda:0"
+  encode_kwargs: 
+    normalize_embeddings: True
+
+model:
+  name:
+  temp: 0.0
+  max_length: 
+  device_map: "cuda:0"
+  torch_dtype: "auto"
+  attn_impl: "eager"
+  trust_remote_code: True
+  quantization:
+    bitsandbytes:
+  tokenizer:
+    padding_val: True
+    trunc_val: True 
+
+prompt: 
+
